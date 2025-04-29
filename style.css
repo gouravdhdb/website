@@ -6,10 +6,10 @@
 }
 
 body {
-    font-family: 'Minecraft', sans-serif; /* Minecraft-style font */
+    font-family: 'Minecraft', sans-serif; /* Minecraft-style font (or a similar pixelated font) */
     line-height: 1.6;
-    color: #A1D15C; /* Minecraft green */
-    background-color: #2B2B2B; /* Darker gray to match Minecraft's atmosphere */
+    color: #FFF; /* Light text for contrast */
+    background-color: #1C1C1C; /* Dark background for Minecraft aesthetic */
 }
 
 .container {
@@ -20,12 +20,12 @@ body {
 }
 
 header {
-    background-color: #0A1F2C; /* Dark blue, giving a blocky, bold feel */
-    color: #F0E5D8; /* Light beige for contrast */
+    background-color: #3E4A59; /* Dark grayish blue, resembling Minecraft's stone blocks */
+    color: #F1C40F; /* Gold color for a subtle highlight */
     padding: 3rem 0;
     text-align: center;
-    font-size: 2.5rem; /* Slightly larger font for header */
-    border-bottom: 4px solid #8C8C8C; /* More prominent border for blockiness */
+    font-size: 2.5rem; /* Larger font for emphasis */
+    border-bottom: 4px solid #2C3E50; /* Border to separate header */
 }
 
 header nav ul {
@@ -35,26 +35,26 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin: 0 20px; /* Increased spacing between nav items */
+    margin: 0 15px;
 }
 
 header nav ul li a {
-    color: #F0E5D8;
+    color: #F1C40F;
     text-decoration: none;
     font-weight: bold;
-    font-size: 1.4rem; /* Slightly larger font for navigation */
-    letter-spacing: 2px;
-    transition: color 0.3s ease;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
+    transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #00FF00; /* Bright Minecraft green for hover */
+    color: #00FF00; /* Classic Minecraft bright green on hover */
 }
 
 section {
     padding: 4rem 0;
-    background-color: #3C3C3C; /* Dark gray for section background */
+    background-color: #2D3436; /* Slightly darker section background */
 }
 
 .project-grid {
@@ -65,30 +65,27 @@ section {
 }
 
 .project-card {
-    background: #6D6D6D; /* Minecraft stone gray color */
+    background: #4B7A70; /* Stone block color */
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* More shadow for depth */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-    font-family: 'Minecraft', sans-serif; /* Minecraft-style font for project cards */
+    font-family: 'Minecraft', sans-serif; /* Keep the pixelated font */
     text-align: center;
-    border: 3px solid #2D2D2D; /* Minecraft-style border */
-    background-image: url('https://path/to/minecraft-texture.png'); /* Optional texture effect for cards */
-    background-size: cover;
-    background-position: center;
+    border: 3px solid #2C3E50; /* Dark border for a clean look */
 }
 
 .project-card:hover {
-    transform: translateY(-15px); /* Slightly stronger hover effect */
-    background-color: #444; /* Slightly darker hover color */
+    transform: translateY(-10px); /* Slight hover effect */
+    background-color: #3E5A55; /* Darker shade on hover */
 }
 
 footer {
-    background-color: #0A1F2C;
-    color: #F0E5D8;
+    background-color: #3E4A59;
+    color: #F1C40F;
     text-align: center;
-    padding: 1.5rem 0; /* Increased padding for the footer */
+    padding: 1.5rem 0;
     margin-top: 2rem;
-    font-size: 1.3rem; /* Slightly larger font for footer */
-    border-top: 4px solid #8C8C8C; /* Added border for consistency */
+    font-size: 1.2rem;
+    border-top: 4px solid #2C3E50; /* Add border to footer for structure */
 }
