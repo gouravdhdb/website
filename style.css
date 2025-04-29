@@ -3,78 +3,88 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  
-  body {
-    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Minecraft', sans-serif; /* Change to a Minecraft-style font */
     line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
-  }
-  
-  .container {
+    color: #A1D15C; /* Minecraft green */
+    background-color: #4F4F4F; /* Dark grey background for the Minecraft vibe */
+}
+
+.container {
     width: 90%;
     max-width: 1100px;
     margin: auto;
     padding: 2rem 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: white;
+}
+
+header {
+    background-color: #0A1F2C; /* Minecraft-like dark blue for the header */
+    color: #F0E5D8; /* Light beige for contrast */
     padding: 3rem 0;
     text-align: center;
-  }
-  
-  header nav ul {
+    font-size: 2rem;
+    border-bottom: 4px solid #8C8C8C; /* Add a border for a blocky feel */
+}
+
+header nav ul {
     margin-top: 1rem;
     list-style: none;
-  }
-  
-  header nav ul li {
+}
+
+header nav ul li {
     display: inline-block;
     margin: 0 15px;
-  }
-  
-  header nav ul li a {
-    color: #fff;
+}
+
+header nav ul li a {
+    color: #F0E5D8;
     text-decoration: none;
-    font-weight: 600;
+    font-weight: bold;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
     transition: color 0.3s ease;
-  }
-  
-  header nav ul li a:hover {
-    color: #00bcd4;
-  }
-  
-  section {
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    color: #76D7C4; /* A Minecraft-style blue-green on hover */
+}
+
+section {
     padding: 4rem 0;
-  }
-  
-  .project-grid {
+    background-color: #3C3C3C; /* Slightly dark background for sections */
+}
+
+.project-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
     margin-top: 2rem;
-  }
-  
-  .project-card {
-    background: white;
+}
+
+.project-card {
+    background: #6D6D6D; /* Minecraft stone gray color */
     padding: 2rem;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-  }
-  
-  .project-card:hover {
+    font-family: 'Minecraft', sans-serif; /* Use Minecraft font for project cards */
+    text-align: center;
+    border: 3px solid #2D2D2D; /* Minecraft-style border for cards */
+}
+
+.project-card:hover {
     transform: translateY(-10px);
-  }
-  
-  footer {
-    background-color: #333;
-    color: white;
+    background-color: #444; /* Slightly darker on hover */
+}
+
+footer {
+    background-color: #0A1F2C;
+    color: #F0E5D8;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
-  }
-  
+    font-size: 1.2rem;
+}
