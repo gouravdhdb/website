@@ -20,12 +20,12 @@ body {
 }
 
 header {
-    background-color: #52c0d9; /* Dark gray to keep it subtle and blocky */
+    background-color: #2C3E50; /* Dark gray to keep it subtle and blocky */
     color: #EEE; /* Light text for the header */
     padding: 3rem 0;
     text-align: center;
     font-size: 2.5rem;
-    border-bottom: 4px solid #2C3E50;
+    border-bottom: 4px solid #52c0d9;
     border-radius: 30px; /* Semi-rounded edges for the header */
 }
 
