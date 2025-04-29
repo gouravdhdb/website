@@ -66,10 +66,12 @@ section {
 }
 
 .project-card {
-    background: #555; /* Subtle stone color */
-    padding: 2rem;
-    border-radius: 50%; /* Full circle for a rounded effect */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background: #3a3a3a;
+  border-radius: 15px;
+  padding: 1.5rem;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
     transition: transform 0.3s ease;
     font-family: 'Minecraft', sans-serif;
     text-align: center;
