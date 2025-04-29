@@ -9,7 +9,7 @@ body {
     font-family: 'Minecraft', sans-serif; /* If available, use a pixelated font */
     line-height: 1.6;
     color: #EEE; /* Light text for readability */
-    background-color: #52c0d9; /* Dark background like Minecraft’s main theme */
+    background-color: #333; /* Dark background like Minecraft’s main theme */
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    background-color: #444; /* Dark gray to keep it subtle and blocky */
+    background-color: #52c0d9; /* Dark gray to keep it subtle and blocky */
     color: #EEE; /* Light text for the header */
     padding: 3rem 0;
     text-align: center;
