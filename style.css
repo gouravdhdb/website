@@ -25,6 +25,8 @@ header {
     padding: 3rem 0;
     text-align: center;
     font-size: 2.5rem;
+    border-bottom: 4px solid #2C3E50;
+    border-radius: 30px; /* Semi-rounded edges for the header */
 }
 
 header nav ul {
@@ -53,6 +55,7 @@ header nav ul li a:hover {
 section {
     padding: 4rem 0;
     background-color: #333; /* Slightly lighter gray for section */
+    border-radius: 25px; /* Rounded section corners */
 }
 
 .project-grid {
@@ -65,12 +68,18 @@ section {
 .project-card {
     background: #555; /* Subtle stone color */
     padding: 2rem;
-    border-radius: 8px;
+    border-radius: 50%; /* Full circle for a rounded effect */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
     font-family: 'Minecraft', sans-serif;
     text-align: center;
     border: 2px solid #444; /* Simple border for a blocky look */
+    width: 250px; /* Set width for a consistent size */
+    height: 250px; /* Set height for a consistent size */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; /* Center align the project cards */
 }
 
 .project-card:hover {
@@ -85,4 +94,6 @@ footer {
     padding: 1.5rem 0;
     margin-top: 2rem;
     font-size: 1.2rem;
+    border-top: 4px solid #2C3E50;
+    border-radius: 30px; /* Rounded footer edges */
 }
