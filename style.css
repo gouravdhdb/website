@@ -66,7 +66,7 @@ section {
 }
 
 .project-card {
-  background: #3a3a3a;
+  background: #52c0d9;
   border-radius: 15px;
   padding: 1.5rem;
   width: 300px;
@@ -86,7 +86,7 @@ section {
 
 .project-card:hover {
     transform: translateY(-8px); /* Slight lift effect on hover */
-    background-color: #666; /* Darken a little on hover */
+    background-color: #2C3E50; /* Darken a little on hover */
 }
 
 footer {
